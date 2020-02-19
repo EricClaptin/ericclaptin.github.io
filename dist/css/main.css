@@ -1,16 +1,16 @@
 /*
-Error: Invalid CSS after "  }": expected "}", was ""
-        on line 103 of src/scss/main.scss
+Error: Invalid CSS after "    }": expected "}", was ""
+        on line 99 of src/scss/main.scss
 
-98:   nav ul li a,
-99:   nav ul li a:link,
-100:   nav ul li a:visited{
-101:     display: block;
-102:     border-bottom: 1px solid #777;
-103:   }
+94:     nav ul li a,
+95:     nav ul li a:link,
+96:     nav ul li a:visited{
+97:       display: block;
+98:       border-bottom: 1px solid #777;
+99:     }
 
 Backtrace:
-src/scss/main.scss:103
+src/scss/main.scss:99
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1207:in `expected'
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1137:in `expected'
 /usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1132:in `tok!'
@@ -34,4 +34,4 @@ src/scss/main.scss:103
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"  }\": expected \"}\", was \"\"\A         on line 103 of src/scss/main.scss\A \A 98:   nav ul li a,\A 99:   nav ul li a:link,\A 100:   nav ul li a:visited{\A 101:     display: block;\A 102:     border-bottom: 1px solid #777;\A 103:   }"; }
+  content: "Error: Invalid CSS after \"    }\": expected \"}\", was \"\"\A         on line 99 of src/scss/main.scss\A \A 94:     nav ul li a,\A 95:     nav ul li a:link,\A 96:     nav ul li a:visited{\A 97:       display: block;\A 98:       border-bottom: 1px solid #777;\A 99:     }"; }
